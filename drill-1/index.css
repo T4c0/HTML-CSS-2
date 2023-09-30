@@ -1,0 +1,65 @@
+/* Reset some default styles */
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: #666; /* Grey header */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    z-index: 2; /* Ensure header is above other elements */
+    width: 100%;
+}
+
+/* Set HTML and body height to 100% */
+html, body {
+    height: 100%;
+}
+
+/* Create a container to hold the main content and sidebars */
+
+/* Stretch the container vertically */
+
+/* Style the left sidebar */
+.left-sidebar {
+    position: absolute; /* Position the left sidebar */
+    top: 0;
+    left: 0;
+    width: 25%; /* Adjust the width as needed */
+    background-color: #ddd; /* Light grey sidebar */
+    padding: 20px;
+    z-index: 1; /* Ensure sidebar is below header */
+    height: 100%; /* Take up full page height */
+}
+
+/* Style the main content */
+.main-content {
+    margin-left: 25%; /* Adjust the margin to match the left sidebar width */
+    background-color: #fff; /* White main content background */
+    padding: 20px;
+    height: 100%; /* Take up full page height */
+}
+
+/* Style the right sidebar */
+.right-sidebar {
+    position: absolute; /* Position the right sidebar */
+    top: 0;
+    right: 0;
+    width: 25%; /* Adjust the width as needed */
+    background-color: #ddd; /* Light grey sidebar */
+    padding: 20px;
+    z-index: 1; /* Ensure sidebar is below header */
+    height: 100%; /* Take up full page height */
+}
+
+/* Style the footer */
+.footer {
+    background-color: #000; /* Black footer */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    clear: both; /* Clear floated content */
+}
