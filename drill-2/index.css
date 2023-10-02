@@ -1,0 +1,22 @@
+/* Reset some default styles */
+body, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Create a container to hold the divs */
+
+/* Style the first div with a solid black border */
+.solid-border {
+    border: 2px solid #000; /* Solid black border */
+    padding: 20px;
+    text-align: center;
+    margin: 20px; /* Add space between divs */
+}
+
+/* Style the second div with a dotted black border */
+.dotted-border {
+    border: 2px dotted #000; /* Dotted black border */
+    padding: 20px;
+    text-align: center;
+}
