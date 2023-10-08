@@ -1,0 +1,61 @@
+html, body {
+  height: 125%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+.first-row {
+  background-color: lightgray;
+  height: 25%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border: none;
+}
+
+.square {
+    width: 10%;
+    height: 10%;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5%;
+    margin: 2%;
+}
+
+.second-row {
+  height: 25%;
+  padding: 0;
+  display: flex;
+  -ms-flex-align: center;
+}
+
+.second-row p {
+  margin: 2;
+  -ms-flex-align: center;
+}
+
+.third-row {
+  background-color: dodgerblue;
+  height: 25%;
+  width: 100%;
+}
+.fourth-row {
+  background-color: rgb(30, 221, 255);
+  height: 25%;
+  width: 100%;
+}
+.fifth-row {
+  background-color: rgb(180, 169, 12);
+  height: 25%;
+  width: 100%;
+}
+.sixth-row {
+  background-color: rgb(214, 255, 30);
+  height: 25%;
+  width: 100%;
+}
